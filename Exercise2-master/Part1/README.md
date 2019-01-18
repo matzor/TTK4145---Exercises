@@ -1,16 +1,16 @@
 # Mutex and Channel basics
 
 ### What is an atomic operation?
-> *Your answer here*
+> An action with no observable intermediary state, can't be interrupted.
 
 ### What is a semaphore?
-> *Your answer here*
+> A variable that is used to control access to a resource. Integer value, increments when it is in use, decrements when done. Allows a maximum amount of threads to access at the same time.  
 
 ### What is a mutex?
-> *Your answer here*
+> A mutex is locking mechanism used to synchronize access to a resource. It can lock down resources such that only one process can use it at a time.
 
 ### What is the difference between a mutex and a binary semaphore?
-> *Your answer here*
+> A special kind of semaphore.
 
 ### What is a critical section?
 > *Your answer here*
